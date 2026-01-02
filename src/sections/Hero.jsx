@@ -3,24 +3,25 @@ import { ArrowRight,Download,Github, Linkedin,ChevronDown} from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
+    "Java",
+    "SpringBoot",
+    "JUnit 5",
+    "Maven",
+    "Jenkins",
+    "C#",
+    "PowerShell",
     "React",
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "GraphQL",
+    "MySQL",
+    "JavaScript",
+    "Kubernetes",
+    "Kibana",
     "PostgreSQL",
     "MongoDB",
     "Redis",
     "Docker",
-    "AWS",
-    "Vercel",
     "Tailwind CSS",
-    "Prisma",
-    "Jest",
-    "Cypress",
     "Figma",
     "Git",
-    "GitHub Actions",
   ];
 
 
@@ -94,6 +95,7 @@ export const Hero = () => {
                             {icon: Linkedin ,href:"https://in.linkedin.com/in/yesh-rajawat"},
                     ].map((social,index) => (
                         <a key={index}
+                        target="_blank" 
                          href={social.href}
                          className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                          >{<social.icon />}</a>
