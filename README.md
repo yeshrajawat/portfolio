@@ -1,16 +1,71 @@
-# React + Vite
+# 🚀 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal **portfolio website**, built to showcase my professional experience, technical skills, and projects.
 
-Currently, two official plugins are available:
+The website serves as a central place to learn more about me, explore my work, and get in touch.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧑‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a **Software Engineer** with experience in backend development, microservices, and cloud-native applications.  
+I work extensively with **Java, Spring Boot, .NET Core, RabbitMQ, Docker, and Kubernetes**, and I enjoy building scalable, reliable systems.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Demo
+
+👉 **Live Website:** `<your-portfolio-url-here>`
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React JS
+- JavaScript
+- Tailwind CSS
+
+### DevOps & Tools
+- EmailJS
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+
+├───public
+│   │   hero-bg.jpg
+│   │   profile-photo.jpg
+│   │   vite.svg
+│   │
+│   └───project
+│           project1.png
+│           project2.png
+│           project3.png
+│           project4.png
+│
+└───src
+    │   App.jsx
+    │   index.css
+    │   main.jsx
+    │
+    ├───assets
+    │       react.svg
+    │
+    ├───components
+    │       AnimatedBorderButton.jsx
+    │       Button.jsx
+    │
+    ├───layout
+    │       Navbar.jsx
+    │
+    └───sections
+            About.jsx
+            Contact.jsx
+            Experience.jsx
+            Hero.jsx
+            Projects.jsx
+            Testimonials.jsx
