@@ -69,3 +69,22 @@ I work extensively with **Java, Spring Boot, .NET Core, RabbitMQ, Docker, and Ku
             Hero.jsx
             Projects.jsx
             Testimonials.jsx
+
+
+🚀 Getting Started
+Prerequisites
+
+Node.js (v16+ recommended)
+
+npm or yarn
+
+Installation
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
+
+Run Locally
+npm run dev
+
+
+The site will be available at http://localhost:3000
