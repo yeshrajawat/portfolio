@@ -44,7 +44,9 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <div className="hidden md:block">
+                    <a href="#contact"> 
                     <Button size="sm"> Contact Me</Button>
+                    </a>
                 </div>
 
                     {/* Mobile View Nav */}
@@ -65,7 +67,12 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button  onClick={()=> setIsMobileMenuOpen(false)} size="sm"> Contact Me</Button>
+            <a href="#contact">
+            <Button  onClick={()=> setIsMobileMenuOpen(false)} size="sm">
+              console.log("temp")
+               Contact Me</Button>
+            </a>
+           
                         </div>
             </div>}
         </header>
